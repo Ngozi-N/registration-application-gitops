@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: registration-application:1.0.0-6
+  name: registration-application:1.0.0-8
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: registration-application:1.0.0-6
+      app: registration-application:1.0.0-8
   template:
     metadata:
       labels:
-        app: registration-application:1.0.0-6
+        app: registration-application:1.0.0-8
     spec:
       containers:
-        - name: registration-application:1.0.0-6
-          image: ngozin/registration-application:1.0.0-6
+        - name: registration-application:1.0.0-8
+          image: ngozin/registration-application:1.0.0-8
           resources:
             limits:
               memory: "256Mi"
