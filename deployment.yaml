@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: registration-application
-          image: ngozin/registration-application:1.0.0-9
+          image: ngozin/registration-application:1.0.0-5
           resources:
             limits:
               memory: "256Mi"
